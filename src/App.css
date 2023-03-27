@@ -11,3 +11,58 @@
 .headers_font {
     font-family: 'Playfair Display', serif;
 }
+
+hr {
+    animation: grow-x-axis 1.5s ease-in forwards;
+    margin: auto;
+    border-top: 1px solid #5e6670;
+}
+@keyframes grow-x-axis {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.fade-in {
+    animation: fade 0.75s ease-in forwards 1.5s;
+    opacity: 0;
+}
+
+.fade-in-2 {
+    animation: fade 0.75s ease-in forwards 2.25s;
+    opacity: 0;
+}
+
+.fade-in-3 {
+    animation: fade 0.75s ease-in forwards 3s;
+    opacity: 0;
+}
+
+.fade-in-4 {
+    animation: fade 0.75s ease-in forwards 3.75s;
+    opacity: 0;
+}
+
+.fade-in-5 {
+    animation: fade 0.75s ease-in forwards 4.5s;
+    opacity: 0;
+}
+
+.fade-in-6 {
+    animation: fade 0.75s ease-in forwards 5.25s;
+    opacity: 0;
+}
+
+.fade-in-7 {
+    animation: fade 0.75s ease-in forwards 6s;
+    opacity: 0;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+    }
+}
