@@ -3,8 +3,6 @@ import styled from "styled-components"
 
 const Section = styled.div`
   padding-top: 7rem;
-  padding-bottom: 7rem;
-  scroll-snap-align: start;
 `
 
 
@@ -14,7 +12,7 @@ const Hero = () => {
             <div className="flex flex-col items-center">
                 <img className="object-cover" style={{borderRadius: "50%", width: "300px", height: "300px"}} src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
                 <div className="inline-block">
-                    <h1 className="font-extrabold text-4xl mt-5">Front-End React Developer</h1>
+                    <h1 className="font-extrabold text-4xl mt-5">Full Stack Developer</h1>
                     <p className="text-gray-400 font-light mt-2 ">Hi I'm Wan Jong Kim. A passionate Full Stack Developer based in <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="align-text-top w-4 h-4 inline text-rose-500 ">
                             <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
                         </svg> Fort Lee, New Jersey.
