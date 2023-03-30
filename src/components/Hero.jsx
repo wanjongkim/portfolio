@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components"
 
 const Section = styled.div`
-  padding-top: 7rem;
+  
 `
 
 
 const Hero = () => {
     return (
-        <Section className="px-6">
+        <Section id="home" className="px-6 pt-24 md:pt-40 h-screen">
             <div className="flex flex-col items-center">
                 <img className="object-cover" style={{borderRadius: "50%", width: "300px", height: "300px"}} src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
                 <div className="inline-block">

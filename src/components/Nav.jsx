@@ -14,9 +14,9 @@ const Nav = () => {
                 </div>
                 <div className="hidden sm:block">
                     <ul className="flex flex-row gap-16">
-                        <li className="headers_font text-xl">Home</li>
-                        <li className="headers_font text-xl">Projects</li>
-                        <li className="headers_font text-xl">Contact</li>
+                        <a href="#home"><li className="headers_font text-xl">Home</li></a>
+                        <a href="#projects"><li className="headers_font text-xl">Projects</li></a>
+                        <a href="#contact"><li className="headers_font text-xl">Contact</li></a>
                     </ul>
                 </div>
                 <div className="sm:hidden rounded-md px-1 py-1 bg-red-600 text-white cursor-pointer" onClick={showMenu()}>
